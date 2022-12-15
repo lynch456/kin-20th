@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="shortcut icon"
+      href="image/1626782343624.png"
+      type="image/x-icon"
+    />
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"
+  ></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css" integrity="sha512-uMIpMpgk4n6esmgdfJtATLLezuZNRb96YEgJXVeo4diHFOF/gqlgu4Y5fg+56qVYZfZYdiqnAQZlnu4j9501ZQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>모두가 지식인20니다 - NAVER</title>
+  </head>
+  <body>
+    <div id="modal">
+        <div id="modal-bg"></div>
+        <div id="modal-item">
+            <button id="modal-close"></button>
+            <h2>공유하기</h2>
+            <div id="link">
+                <a href="#" id="blog">
+                    <span>블로그</span>
+                </a>
+                <a href="#" id="cafe"><span>카페</span></a>
+                <a href="#" id="keep"><span>Keep</span></a>
+                <a href="#" id="memo"><span>메모</span></a>
+                <a href="#" id="band"><span>밴드</span></a>
+                <a href="#" id="line"><span>라인</span></a>
+                <a href="#" id="kakaotalk"><span>카카오톡</span></a>
+                <a href="#" id="kakaostory"><span>카카오스토리</span></a>
+                <a href="#" id="twitter"><span>트위터</span></a>
+                <a href="#" id="facebook"><span>페이스북</span></a>
+                <a href="#" id="main"><span>메일</span></a>
+            </div>
+            <div id="link-copy">
+                <a href="#">https://naver.me/5zoAAbEL</a>
+                <a href="#">URL복사</a>
+            </div>
+        </div>
+      </div>
+      <div id="all-menu_list">
+        <ul>
+            <li>브랜드 필름</li>
+            <li>호기심의 기록들</li>
+            <li>서비스 소식</li>
+        </ul>
+        <span>&copy;NAVER Corp.</span>
+      </div>
+    <div id="wrap">
+      <header>
+        <div id="header-inner">
+          <div id="logo">
+            <a href="#">   
+            </a>
+          </div>
+          <ul id="menu" class="hide">
+            <li id="tab1"><a href="#">브랜드 필름</a></li>
+            <li id="tab2"><a href="#">호기심의 기록들</a></li>
+            <li id="tab3"><a href="#">서비스 소식</a></li>
+          </ul>
+          <div id="btn-wrap">
+          <button id="share"></button>
+          <button id="all-menu"></button>
+        </div>
+        </div>
+      </header>
+      <div id="video-wrap">
+      <video autoplay loop muted class="intro-video">
+        <source
+          src="https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/spot_pc.mp4"
+        />
+      </video>
+    </div>
+      <main>
+        <section id="section-content1">
+            <div class="section-inner">
+                <div id="section1-title"></div>
+                <div class="section-text">
+                 <p> 늘 빛나는 호기심과 답변을 나눠주신<br class="m-br"> 여러분 덕분에 지식iN이 스무 살이 되었습니다. <br>
+                    감사한 마음을 담아 준비한 <strong>생일 이벤트</strong>와<br class="m-br"> 20년의 내공이 담긴 스토리를 함께 즐겨주세요!
+                </p>
+                </div>
+                <video autoplay loop muted>
+                    <source src="https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/intro_pc.mp4">
+                </video>
+
+            </div>
+        </section>
+        <section id="section-content2">
+            <div class="section-inner">
+                <div id="section2-title"></div>
+                <div class="section-text">
+                   <p>우리는 왜 질문할까요? <span></span> 은 <span></span> 이니까<br>
+                    하나부터 열까지,마음껏 물어보세요!
+                </p>
+                </div>
+                  <div id="section2-video" >
+                    <ul class=" video-wrap">
+                      <li class="video-box video-on">
+                        <iframe src="https://tv.naver.com/embed/29460457?autoPlay=true" scrolling="no" frameborder="none" width="800" height="450" allow="autoplay"></iframe>
+                    </li>
+                    <li class="video-box" >
+                        <iframe src="https://tv.naver.com/embed/29460541?autoPlay=true" scrolling="no" frameborder="none" width="800" height="450" ></iframe>
+                    </li>
+                    <li class="video-box">
+                        <iframe src="https://tv.naver.com/embed/29460560?autoPlay=true" scrolling="no" frameborder="none" width="800" height="450" ></iframe>
+                    </li>
+                    <li class="video-box">
+                        <iframe src="https://tv.naver.com/embed/29719032?autoPlay=true" scrolling="no" frameborder="none" width="800" height="450" ></iframe>
+                    </li>
+                  
+                    </ul>
+                    
+                  </div>
+                  <div id="thum">
+                    <ul>
+                        <li>
+                            <button class="thum-btn img1 active"></button>
+                            <span>브랜드 필름</span>
+                        </li>
+                   
+                        <li>
+                            <button class="thum-btn img2"></button>
+                            <span>MZ세대란?</span>
+                        </li>
+                        <li>
+                            <button class="thum-btn img3"></button>
+                            <span>전문가 답변</span>
+                        </li>
+                        <li>
+                            <button class="thum-btn img4"></button>
+                            <span>모두의 내공</span>
+                        </li>
+                       
+                    </ul>
+                  </div>
+            </div>
+        </section>
+        <section id="section-content3">
+            <div id="section3-title"></div>
+            <div id="history">
+                <div class="swiper historySwiper-top swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">눈 깜짝 하는 사이 올라와요</p>
+                                <p class="list-desc">2.1초마다 새로운 질문<br>1.2초마다 새로운 답변</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="./image/img_clock.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">Z세대는 궁금한 건 못 참지</p>
+                                <p class="list-desc">신규 사용자의 56%가 1020</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">대한민국 호기심 폭발 시간!</p>
+                                <p class="list-desc">새학기 시작 전 1얼과 8월, <br>그리고 매주 월요일 오후 7시</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="./image/img_volcano.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">얼마나 다양한 질문을 하냐면</p>
+                                <p class="list-desc">6,589가지 카테고리가 있다는 말씀!</p>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">한국장학재단, 고용노동부, 교육부 등</p>
+                                <p class="list-desc">개 기관, 기업, 단체가<br> 지식파트너로 활동하고 있어요</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="./image/img_smile.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">전문가 답변이 700만 개</p>
+                                <p class="list-desc">의사, 변호사, 세무사... <br> 전문가분들께 THANK You</p>
+                            </li>                          
+                            <li class="img-box">
+                                <img src="./image/img_kin.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">지식iN에서 질문 ・ 답변 해본 사람?</p>
+                                <p class="list-desc">지금까지 무려 3,200만 명</p>
+                            </li>
+                           
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">눈 깜짝 하는 사이 올라와요</p>
+                                <p class="list-desc">2.1초마다 새로운 질문<br>1.2초마다 새로운 답변</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="./image/img_clock.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">Z세대는 궁금한 건 못 참지</p>
+                                <p class="list-desc">신규 사용자의 56%가 1020</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">대한민국 호기심 폭발 시간!</p>
+                                <p class="list-desc">새학기 시작 전 1얼과 8월, <br>그리고 매주 월요일 오후 7시</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="./image/img_volcano.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">얼마나 다양한 질문을 하냐면</p>
+                                <p class="list-desc">6,589가지 카테고리가 있다는 말씀!</p>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">한국장학재단, 고용노동부, 교육부 등</p>
+                                <p class="list-desc">개 기관, 기업, 단체가<br> 지식파트너로 활동하고 있어요</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="./image/img_smile.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">전문가 답변이 700만 개</p>
+                                <p class="list-desc">의사, 변호사, 세무사... <br> 전문가분들께 THANK You</p>
+                            </li>                          
+                            <li class="img-box">
+                                <img src="./image/img_kin.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">지식iN에서 질문 ・ 답변 해본 사람?</p>
+                                <p class="list-desc">지금까지 무려 3,200만 명</p>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">눈 깜짝 하는 사이 올라와요</p>
+                                <p class="list-desc">2.1초마다 새로운 질문<br>1.2초마다 새로운 답변</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="./image/img_clock.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">Z세대는 궁금한 건 못 참지</p>
+                                <p class="list-desc">신규 사용자의 56%가 1020</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">대한민국 호기심 폭발 시간!</p>
+                                <p class="list-desc">새학기 시작 전 1얼과 8월, <br>그리고 매주 월요일 오후 7시</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="./image/img_volcano.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">얼마나 다양한 질문을 하냐면</p>
+                                <p class="list-desc">6,589가지 카테고리가 있다는 말씀!</p>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">한국장학재단, 고용노동부, 교육부 등</p>
+                                <p class="list-desc">개 기관, 기업, 단체가<br> 지식파트너로 활동하고 있어요</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="./image/img_smile.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">전문가 답변이 700만 개</p>
+                                <p class="list-desc">의사, 변호사, 세무사... <br> 전문가분들께 THANK You</p>
+                            </li>                          
+                            <li class="img-box">
+                                <img src="./image/img_kin.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">지식iN에서 질문 ・ 답변 해본 사람?</p>
+                                <p class="list-desc">지금까지 무려 3,200만 명</p>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper historySwiper-middle swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">사랑은 늘 어려운가봐요</p>
+                                <p class="list-desc">사랑 ∙ 연애에 대한 질문 540만 개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_heart.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">가장 찬란한 나이 10대</p>
+                                <p class="list-desc">헤어짐과 이별을 가장 많이 묻는 때</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">수학에 가장 진심인 학년은?</p>
+                                <p class="list-desc">고1 수학에 쌓인 간절한 질문 67만 개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_book.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">어학 외국어 카테고리 무려 34개</p>
+                                <p class="list-desc">스와힐리어, 힌디어, 페르시아어까지 가능</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">국내여행 실시간 질문 박빙 상황</p>
+                                <p class="list-desc">바다, 해수욕장 119,628개 <br>vs 산, 계곡 119,564개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_pet.gif" alt="">
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">반려동물 누적 질문 420만</p>
+                                <p class="list-desc">고양이, 구피, 기니피그, 장수풍뎅이까지<br> 이 세상 집사들 다 모였어요</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_mbti.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">MBTI에 가장 진심인 유형은?</p>
+                                <p class="list-desc">INFP가 질문 17,745개로 1등!</p>
+                            </li>    
+                            <li class="list-box">
+                                <p class="list-title">제발 이 노래를 찾아주세요ㅠㅠ</p>
+                                <p class="list-desc">지식iN에서 노래를 찾아 헤맨<br>28,056명의 사람들과 884,585개의 질문들</p>
+                            </li>                        
+                            <li class="img-box">
+                                <img src="/image/img_mike.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">삼행시라면 지지 않습니다</p>
+                                <p class="list-desc">삼행시 누적질문 12만 개<br>채택 답변자의 49%가 10대!</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_char2.gif" alt="">
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">사랑은 늘 어려운가봐요</p>
+                                <p class="list-desc">사랑 ∙ 연애에 대한 질문 540만 개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_heart.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">가장 찬란한 나이 10대</p>
+                                <p class="list-desc">헤어짐과 이별을 가장 많이 묻는 때</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">수학에 가장 진심인 학년은?</p>
+                                <p class="list-desc">고1 수학에 쌓인 간절한 질문 67만 개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_book.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">어학 외국어 카테고리 무려 34개</p>
+                                <p class="list-desc">스와힐리어, 힌디어, 페르시아어까지 가능</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">국내여행 실시간 질문 박빙 상황</p>
+                                <p class="list-desc">바다, 해수욕장 119,628개 <br>vs 산, 계곡 119,564개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_pet.gif" alt="">
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">반려동물 누적 질문 420만</p>
+                                <p class="list-desc">고양이, 구피, 기니피그, 장수풍뎅이까지<br> 이 세상 집사들 다 모였어요</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_mbti.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">MBTI에 가장 진심인 유형은?</p>
+                                <p class="list-desc">INFP가 질문 17,745개로 1등!</p>
+                            </li>    
+                            <li class="list-box">
+                                <p class="list-title">제발 이 노래를 찾아주세요ㅠㅠ</p>
+                                <p class="list-desc">지식iN에서 노래를 찾아 헤맨<br>28,056명의 사람들과 884,585개의 질문들</p>
+                            </li>                        
+                            <li class="img-box">
+                                <img src="/image/img_mike.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">삼행시라면 지지 않습니다</p>
+                                <p class="list-desc">삼행시 누적질문 12만 개<br>채택 답변자의 49%가 10대!</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_char2.gif" alt="">
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">사랑은 늘 어려운가봐요</p>
+                                <p class="list-desc">사랑 ∙ 연애에 대한 질문 540만 개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_heart.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">가장 찬란한 나이 10대</p>
+                                <p class="list-desc">헤어짐과 이별을 가장 많이 묻는 때</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">수학에 가장 진심인 학년은?</p>
+                                <p class="list-desc">고1 수학에 쌓인 간절한 질문 67만 개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_book.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">어학 외국어 카테고리 무려 34개</p>
+                                <p class="list-desc">스와힐리어, 힌디어, 페르시아어까지 가능</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">국내여행 실시간 질문 박빙 상황</p>
+                                <p class="list-desc">바다, 해수욕장 119,628개 <br>vs 산, 계곡 119,564개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_pet.gif" alt="">
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="list-box">
+                                <p class="list-title">반려동물 누적 질문 420만</p>
+                                <p class="list-desc">고양이, 구피, 기니피그, 장수풍뎅이까지<br> 이 세상 집사들 다 모였어요</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_mbti.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">MBTI에 가장 진심인 유형은?</p>
+                                <p class="list-desc">INFP가 질문 17,745개로 1등!</p>
+                            </li>    
+                            <li class="list-box">
+                                <p class="list-title">제발 이 노래를 찾아주세요ㅠㅠ</p>
+                                <p class="list-desc">지식iN에서 노래를 찾아 헤맨<br>28,056명의 사람들과 884,585개의 질문들</p>
+                            </li>                        
+                            <li class="img-box">
+                                <img src="/image/img_mike.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">삼행시라면 지지 않습니다</p>
+                                <p class="list-desc">삼행시 누적질문 12만 개<br>채택 답변자의 49%가 10대!</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_char2.gif" alt="">
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper historySwiper-bottom swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="img-box">
+                                <img src="/image/img_char.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">올림포스를 넘보는 신 세계</p>
+                                <p class="list-desc">신등급 16,176명<br> 절대신 124명</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">최초부터 지금까지 290주 연속?!</p>
+                                <p class="list-desc">매주 열심답변자로 선정된<br>51명의 레전드</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_heart.png" alt="">
+                            </li>
+                           
+                            <li class="list-box">
+                                <p class="list-title">수학에 가장 진심인 학년은?</p>
+                                <p class="list-desc">고1 수학에 쌓인 간절한 질문 67만 개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_trophy.gif" alt="">
+                            </li>         
+                            <li class="list-box">
+                                <p class="list-title">이 땅의 최초의 절대신</p>
+                                <p class="list-desc">'코비진스'와 '택배답변만14년차'<br>절대신 등급 신설과 동시에 등극!</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_thumb_up.png" alt="">
+                            </li>  
+                            <li class="list-box">
+                                <p class="list-title">WOW, 넘버원으로 인정합니다!</p>
+                                <p class="list-desc">질문을 110,201개 올려준 '마르첼로'님<br> 답변을 478,162개 달아준 '택배답변14년차'님</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">안녕하세요 최장수입니다.</p>
+                                <p class="list-desc">가장 오래 활동한 지식 연차 20년<br> 20년 활동한 지식인 99명</p>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="img-box">
+                                <img src="/image/img_crown.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">기부왕 & 봉사왕을 소개합니다</p>
+                                <p class="list-desc">2021년 해피빈 4,311,000원으로 가장 많이 기부한 '고양이인스타' 님<br>
+                                                    교육기부 답변 누적 383시간을 달성한 'MathRoiD' 님</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">지식iN 배지 수집왕 '별명안씀'님</p>
+                                <p class="list-desc">총 86개의 배지를 수집했어요!</p>
+                            </li> 
+                            <li class="img-box">
+                                <img src="/image/img_collection.gif" alt="">
+                            </li>
+                             
+                            <li class="list-box">
+                                <p class="list-title">콕 집어, '코비진스'님이 알려주세요!</p>
+                                <p class="list-desc">1:1 질문을 무려 7만 번 받았어요</p>
+                            </li>                        
+                           
+                            <li class="list-box">
+                                <p class="list-title">답변을 달았다하면 채택!</p>
+                                <p class="list-desc">답변 채택율 100% 영예의 신등급<br> 무려 872명!</p>
+                            </li>
+                           
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="img-box">
+                                <img src="/image/img_char.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">올림포스를 넘보는 신 세계</p>
+                                <p class="list-desc">신등급 16,176명<br> 절대신 124명</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">최초부터 지금까지 290주 연속?!</p>
+                                <p class="list-desc">매주 열심답변자로 선정된<br>51명의 레전드</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_heart.png" alt="">
+                            </li>
+                           
+                            <li class="list-box">
+                                <p class="list-title">수학에 가장 진심인 학년은?</p>
+                                <p class="list-desc">고1 수학에 쌓인 간절한 질문 67만 개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_trophy.gif" alt="">
+                            </li>         
+                            <li class="list-box">
+                                <p class="list-title">이 땅의 최초의 절대신</p>
+                                <p class="list-desc">'코비진스'와 '택배답변만14년차'<br>절대신 등급 신설과 동시에 등극!</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_thumb_up.png" alt="">
+                            </li>  
+                            <li class="list-box">
+                                <p class="list-title">WOW, 넘버원으로 인정합니다!</p>
+                                <p class="list-desc">질문을 110,201개 올려준 '마르첼로'님<br> 답변을 478,162개 달아준 '택배답변14년차'님</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">안녕하세요 최장수입니다.</p>
+                                <p class="list-desc">가장 오래 활동한 지식 연차 20년<br> 20년 활동한 지식인 99명</p>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="img-box">
+                                <img src="/image/img_crown.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">기부왕 & 봉사왕을 소개합니다</p>
+                                <p class="list-desc">2021년 해피빈 4,311,000원으로 가장 많이 기부한 '고양이인스타' 님<br>
+                                                    교육기부 답변 누적 383시간을 달성한 'MathRoiD' 님</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">지식iN 배지 수집왕 '별명안씀'님</p>
+                                <p class="list-desc">총 86개의 배지를 수집했어요!</p>
+                            </li> 
+                            <li class="img-box">
+                                <img src="/image/img_collection.gif" alt="">
+                            </li>
+                             
+                            <li class="list-box">
+                                <p class="list-title">콕 집어, '코비진스'님이 알려주세요!</p>
+                                <p class="list-desc">1:1 질문을 무려 7만 번 받았어요</p>
+                            </li>                        
+                           
+                            <li class="list-box">
+                                <p class="list-title">답변을 달았다하면 채택!</p>
+                                <p class="list-desc">답변 채택율 100% 영예의 신등급<br> 무려 872명!</p>
+                            </li>
+                           
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="img-box">
+                                <img src="/image/img_char.gif" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">올림포스를 넘보는 신 세계</p>
+                                <p class="list-desc">신등급 16,176명<br> 절대신 124명</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">최초부터 지금까지 290주 연속?!</p>
+                                <p class="list-desc">매주 열심답변자로 선정된<br>51명의 레전드</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_heart.png" alt="">
+                            </li>
+                           
+                            <li class="list-box">
+                                <p class="list-title">수학에 가장 진심인 학년은?</p>
+                                <p class="list-desc">고1 수학에 쌓인 간절한 질문 67만 개</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_trophy.gif" alt="">
+                            </li>         
+                            <li class="list-box">
+                                <p class="list-title">이 땅의 최초의 절대신</p>
+                                <p class="list-desc">'코비진스'와 '택배답변만14년차'<br>절대신 등급 신설과 동시에 등극!</p>
+                            </li>
+                            <li class="img-box">
+                                <img src="/image/img_thumb_up.png" alt="">
+                            </li>  
+                            <li class="list-box">
+                                <p class="list-title">WOW, 넘버원으로 인정합니다!</p>
+                                <p class="list-desc">질문을 110,201개 올려준 '마르첼로'님<br> 답변을 478,162개 달아준 '택배답변14년차'님</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">안녕하세요 최장수입니다.</p>
+                                <p class="list-desc">가장 오래 활동한 지식 연차 20년<br> 20년 활동한 지식인 99명</p>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="list-box_wrap">
+                            <li class="img-box">
+                                <img src="/image/img_crown.png" alt="">
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">기부왕 & 봉사왕을 소개합니다</p>
+                                <p class="list-desc">2021년 해피빈 4,311,000원으로 가장 많이 기부한 '고양이인스타' 님<br>
+                                                    교육기부 답변 누적 383시간을 달성한 'MathRoiD' 님</p>
+                            </li>
+                            <li class="list-box">
+                                <p class="list-title">지식iN 배지 수집왕 '별명안씀'님</p>
+                                <p class="list-desc">총 86개의 배지를 수집했어요!</p>
+                            </li> 
+                            <li class="img-box">
+                                <img src="/image/img_collection.gif" alt="">
+                            </li>
+                             
+                            <li class="list-box">
+                                <p class="list-title">콕 집어, '코비진스'님이 알려주세요!</p>
+                                <p class="list-desc">1:1 질문을 무려 7만 번 받았어요</p>
+                            </li>                        
+                           
+                            <li class="list-box">
+                                <p class="list-title">답변을 달았다하면 채택!</p>
+                                <p class="list-desc">답변 채택율 100% 영예의 신등급<br> 무려 872명!</p>
+                            </li>
+                           
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+               
+                <p id="desc">
+                    2022년 9월 기준 집계*
+                </p>
+            </div>
+        </section>
+        <section id="section-content4">
+           <div id="section4-title"></div>
+           <div class="section-text">
+                <p>화제의 질문과 답변만 모았어요!<br>20년 역사에 발자취를 남긴 질문과 답변 모먼트를 소개합니다.</p>
+            </div>
+            <div class="card-list">
+            <div class="swiper cardSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage1.png" alt="">
+                        <p>싸다9 날리는<br>예언자의 등장</p>
+                        <span>질문 보기</span>
+                        </a>
+                    </div>
+                  
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage2.png" alt="">
+                        <p>14년 만에<br>채택된 답변</p>
+                        <span>질문 보기</span>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage3.png" alt="">
+                        <p style="color:#333;">할머니랑 사는 게<br>창피해요</p>
+                        <span style="color:#333; border: 1px solid #333;">질문 보기</span>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage4.png" alt="">
+                        <p>행복했던 과거로<br>돌아가고 싶어요</p>
+                        <span>질문 보기</span>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage5.png" alt="">
+                        <p>지식iN<br>최초의 질문</p>
+                        <span>질문 보기</span>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage6.png" alt="">
+                        <p>닥터 프로스트랑<br>사귀고 싶어요</p>
+                        <span>질문 보기</span>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage7.png" alt="">
+                        <p>우리 집에<br>찾아온 손님</p>
+                        <span>질문 보기</span>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage8.png" alt="">
+                        <p>이 움짤 찾는데<br>내공 전부 겁니다</p>
+                        <span>질문 보기</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage9.png" alt="">
+                        <p>목소리의 주인공을<br>맞춰보시오</p>
+                        <span>질문 보기</span>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage10.png" alt="">
+                        <p>이 노래<br>맞춰보세요</p>
+                        <span>답변 보기</span>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage11.png" alt="">
+                        <p>풍선껌<br>부는 법.jpg</p>
+                        <span>답변 보기</span>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage12.png" alt="">
+                        <p>떴다 떴다 비행기의<br>속도를 계산하시오</p>
+                        <span>답변 보기</span>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage13.png" alt="">
+                        <p>지금 기술로는<br>못 만드는 발명품</p>
+                        <span>질문 보기</span>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage14.png" alt="">
+                        <p>코로나19 댄스<br>제법인데?</p>
+                        <span>답변 보기</span>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage15.png" alt="">
+                        <p>비둘기를<br>사랑하게 됐어요</p>
+                        <span>답변 보기</span>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage16.png" alt="">
+                        <p>지식iN은 왜<br>지식iN이 아닌가요?</p>
+                        <span>답변 보기</span>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                        <a href="#">
+                        <img src="./image/img_pilgrimage17.png" alt="">
+                        <p>지식iN에 질문하는 법<br>알려주세요</p>
+                        <span>답변 보기</span>
+                    </a>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+               
+              </div>
+            </div>
+        </section>
+        <section id="section-content5">
+            <div id="section5-title"></div>
+            <div class="section-text">
+             <p>의학,법률,노무,세무,관세 등<br>11개 분야의 전문가들이 활동하고 있어요!</p>
+             <div class="swiper cardSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="expert1 card-box">
+                        <p>졸린데 잠이 안 와요.<br>빨리 잘 수 있는<br>방법을 알려주세요.</p>
+                        <span>전문가 답변 보기</span>
+                    </a>
+                  </div>
+                 
+                  <div class="swiper-slide">
+                    <a href="#" class="expert2 card-box">
+                        <p>아이가 왜소하고<br>자주 아파요. 한약을<br>얼마나 먹여야 할까요</p>
+                        <span>전문가 답변 보기</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="expert3 card-box">
+                        <p>프로바이오틱스가<br>변비에 정말<br>도움이 되나요?</p>
+                        <span>전문가 답변 보기</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="expert4 card-box">
+                        <p>교정 중에는<br>어떤 음식을<br>조심해야 할까요?</p>
+                        <span>전문가 답변 보기</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="expert5 card-box">
+                        <p>실업급여<br>신청하는 방법<br>알려주세요!</p>
+                        <span>전문가 답변 보기</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="expert6 card-box">
+                        <p>로또 당첨금을<br>부모님께 드릴 때<br>증여세를 내야 하나요?</p>
+                        <span>전문가 답변 보기</span>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="expert7 card-box">
+                        <p>카메라는<br>관세를 얼마나<br>내야 하나요?</p>
+                        <span>전문가 답변 보기</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              
+              </div>
+        </section>
+        <section id="section-content6">
+            <div id="section6-title"></div>
+            <ul id="donation">
+                <li>
+                    <h3 class="donation-title"></h3>
+                    <div class="donation-video">
+                    <video autoplay loop muted >
+                        <source src="https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/donation.mp4">
+                    </video>
+                    </div>
+                    <div class="section-text">
+                    <p>답변이 채택되면 받는 '콩'<br>해피빈을 통해 기부할 수 있어요!</p>
+                    </div>
+                    <div class="donation-info">
+                        <span class="info-title">연평균 기부자</span>
+                        <div class="info-total">
+                            <span class="counting1">0</span><span>명</span>
+                            <i class="graph-img graph1"></i>
+                        </div>
+                        <span class="info-title">2021년 기부액</span>
+                        <div class="info-total">
+                            <span class="counting2">0</span><span>억원 이상</span>
+                            <i class="graph-img up"></i>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <h3 class="donation-title"></h3>
+                    <div class="donation-video">
+                    <video autoplay loop muted >
+                        <source src="https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/edu.mp4">
+                    </video>
+                    </div>
+                    <div class="section-text">
+                        <p>초∙중∙고등 학습과정에 대한<br>지식을 나누면 봉사활동으로 인정돼요!</p>
+                    </div>
+                    <div class="donation-info">
+                        <span class="info-title">누적 참여</span>
+                        <div class="info-total">
+                            <span class="counting3">0</span><span>명</span>
+                            <i class="graph-img graph2"></i>
+                        </div>
+                        <span class="info-title">참여 답변</span>
+                        <div class="info-total">
+                            <span class="counting4">0</span><span>개</span>
+                            <i class="graph-img heart"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div id="more">
+                <a href="#">지식기부 자세히 보기</a>
+            </div>
+        </section>
+        <section id="section-content7">
+            <div id="section7-title"></div>
+            <div id="card-wrap">
+            <div class="swiper serviceSwiper">
+                <div class="swiper-wrapper service-list">
+                  <div class="swiper-slide">
+                    <div class="service-card kin-20th">
+                        <div class="service-icon icon1"></div>
+                        <h3>지식iN의 새로운 아이콘</h3>
+                        <p>모두가 <span class="strong">함께하는 공간</span>을 담았습니다.</p>
+                        <a href="#">아이콘 제작 스토리</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="service-card update">
+                        <div class="service-icon icon2"></div>
+                        <h3>프로필 카드 업데이트</h3>
+                        <p><span class="strong">나의 능력치</span>를 업그레이드 하세요!</p>
+                        <a href="#">기능 알아보기</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide" >
+                    <div class="service-card new">
+                        <div class="service-icon icon3 "></div>
+                        <h3>'질문 끌어 올리기' 등장</h3>
+                        <p>답변이 늦어지면 <span class="strong">끌올 </span>해보세요</p>
+                        <a href="#">기능 알아보기</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="service-card challenge">
+                        <div class="service-icon icon4"></div>
+                        <h3>열심 답변자 챌린지 시즌3</h3>
+                        <p>네이버페이 포인트 <span class="strong">최대 4만원 지급</span></p>
+                        <a href="#">이벤트 참여하기</a>
+                        
+                    </div>
+                </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            
+            </div>
+        </section>
+        <section id="section-content8">
+            <div id="section-inner">
+                <h3 id="section8-title">데이터 집계 기준</h3>
+                <ul id="section-list">
+                    <li class="list-item">
+                        [우리가 쌓아온 호기심의 기록들] 데이터 집계 기준은 아래와 같습니다.
+                    </li>
+                    <li class="list-item">
+                        '지식iN에서 질문, 답변 해본 적 있는 사람? 지금까지 무려 3,200만 명' 은 2002.10.07 ~ 2022.08.25 기간 동안 집계했습니다.
+                    </li>
+                    <li class="list-item">
+                        '2.1초마다 새로운 질문, 1.2초마다 새로운 답변' 은 누적 질문 3억 개, 답변 5억 개를 기준으로 20년의 시간을 나눈 것입니다.
+                    </li>
+                    <li class="list-item">
+                        '신규 사용자의 56%가 1020' 은 2022.01.01 ~ 2022.08.25 기간 동안 집계했습니다.
+                    </li>
+                    <li class="list-item">
+                        '대한민국 호기심 폭발 시간, 새학기 시작 전 1월과 8월, 그리고 매주 월요일 오후 7시'는 2019년 ~ 2022년 기준 PV를 집계한 데이터입니다.
+                    </li>
+                    <li class="list-item">
+                        '대한민국 호기심 폭발 시간, 새학기 시작 전 1월과 8월, 그리고 매주 월요일 오후 7시'는 2019년 ~ 2022년 기준 PV를 집계한 데이터입니다.
+                    </li>
+                    <li class="list-item">
+                        '어학 외국어 카테고리 무려 34개' 는 2022년 9월 1일 기준 데이터입니다.
+                    </li>
+                    <li class="list-item">
+                        '신등급 16,716 명, 절대신 124 명' 은 2022년 9월 1일 기준 데이터입니다.
+                    </li>
+                    <li class="list-item">
+                        '최초부터 지금까지 290주 연속?! 매주 열심답변자로 선정된 51명의 레전드' 는 2022년 8월 29일 기준 데이터입니다.
+                    </li>
+                    <li class="list-item">
+                        '해피빈 1인 최대 기부액 4,311,000원' 은 2021년 1년 간 누적 금액입니다.
+                    </li>
+                    <li class="list-item">
+                        그 외 누적 데이터는 모두 2002.10.07 ~ 2022.08.25 기간 동안 집계했습니다.
+                    </li>
+                    <li class="list-item">
+                        [지식으로 기부하고 있습니다] 데이터 집계 기준은 아래와 같습니다.
+                    </li>
+                    <li class="list-item">
+                        장학기부 ‘연평균 기부자 130,000 명' 은 2020년 ~ 2021년 기준 집계했습니다.
+                    </li>
+                    <li class="list-item">
+                        장학기부 ‘2021년 기부액 10억원 이상' 은 2021년 1년 간 누적 금액입니다.
+                    </li>
+                    <li class="list-item">
+                        교육기부 ‘누적 참여 258,953 명', '참여 답변 4,338,644 개'는 2016.01.01 ~ 2022.08.30 기간동안 집계했습니다.
+                    </li>
+                </ul>
+            </div>
+        </section>
+      </main>
+      <footer>
+        <a href="#">&copy;NAVER Corp.</a>
+        <span>대표번호 : 1588-3820</span>
+      </footer>
+    </div>
+
+   
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.js" integrity="sha512-vtbFVybaj5JGg0+f2nzplUxp+5NSqxyInLlVFmUyXEEawwwckoT24Lq2LgWJflhpdlL73s1F0t4AQpFZ9qf9rQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+    <script>
+     
+        var swiper1 = new Swiper(".historySwiper-top", {
+          slidesPerView: 2,
+          spaceBetween: 0,
+          loop: true,
+          autoplay:{
+            delay:0,  reverseDirection:true,
+          },
+          speed:5000
+        });
+        var swiper2 = new Swiper(".historySwiper-middle", {
+          slidesPerView: 2,
+          spaceBetween: 0,
+          loop: true,
+          
+          autoplay:{
+            delay:0,
+            reverseDirection:false,
+          },
+          speed:5000
+        });
+        var swiper3 = new Swiper(".historySwiper-bottom", {
+          slidesPerView: 2,
+          spaceBetween: 0,
+          loop: true,
+          autoplay:{
+            delay:0, 
+            reverseDirection:true,
+          },
+          speed:5000
+        });
+        var swiper4 = new Swiper(".cardSwiper", {
+            slidesPerView: 7,  
+            spaceBetween: 120,
+            loop: true,
+            initialSlide: 0,
+            centeredSlides: true, 
+            effect: 'coverflow',
+            coverflowEffect: {
+                rotate: 10,
+                slideShadows: false,
+                stretch:0, 
+                depth:-20,
+            },
+       
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+             
+            });
+        var swiper5 = new Swiper(".serviceSwiper", {
+             slidesPerView: 2,
+             spaceBetween: -7,
+             navigation: {
+             nextEl: ".swiper-button-next",
+             prevEl: ".swiper-button-prev",
+             },
+              pagination: {
+              el: ".swiper-pagination",
+             },
+
+             breakpoints: {
+                375:{
+                    slidesPerView: 1,
+             
+             
+            touchRatio: 0,
+                },
+             1024: {
+             slidesPerView: 2,
+             spaceBetween: -7,
+             navigation: {
+             nextEl: ".swiper-button-next",
+             prevEl: ".swiper-button-prev",
+             },
+              pagination: {
+              el: ".swiper-pagination",
+             },
+            touchRatio: 0,
+                 }           
+                }
+             });
+       
+     
+           
+
+            
+      </script>
+  </body>
+</html>

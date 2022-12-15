@@ -1,0 +1,14 @@
+footer {
+  width: 100%;
+  padding: 42px 0;
+  text-align: center;
+}
+footer span:before {
+  content: "";
+  width: 1px;
+  height: 16px;
+  margin: 0 20px;
+  background-color: #666;
+  display: inline-block;
+  vertical-align: middle;
+}

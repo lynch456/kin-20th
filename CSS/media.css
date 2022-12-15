@@ -1,0 +1,222 @@
+@media (max-width: 1023px) {
+  #section1-title {
+    background-image: url("../image/sp_mo.png");
+    background-size: 779px 604px;
+    background-position: 0px -484px;
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+  .section-text p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: -0.6px;
+    color: #666;
+  }
+  .m-br {
+    display: block;
+  }
+
+  #section2-title {
+    margin-bottom: 36px;
+    background-image: url("../image/sp_mo.png");
+    background-size: 779px 604px;
+    background-position: -251px 0px;
+    background-repeat: no-repeat;
+    width: 261px;
+    height: 238px;
+  }
+  #thum ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #thum ul li {
+    margin: 0;
+  }
+  #thum ul li span {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  .thum-btn {
+    width: 70px;
+    height: 70px;
+  }
+  .thum-btn.active:after {
+    content: "";
+    background-image: url("../image/img_video_nv_active.png");
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+  }
+  .img1 {
+    background-size: 370px 70px;
+    background-position: 0px;
+  }
+  .img2 {
+    background-size: 370px 70px;
+    background-position: -150px;
+  }
+  .img3 {
+    background-size: 370px 70px;
+    background-position: -224px;
+  }
+  .img4 {
+    background-size: 370px 70px;
+    background-position: -300px;
+  }
+  #section3-title {
+    background-image: url("../image/sp_mo.png");
+    background-size: 779px 604px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 249px;
+    height: 259px;
+  }
+  #section4-title {
+    margin-bottom: 30px;
+    background-image: url("../image/sp_mo.png");
+    background-size: 779px 604px;
+    background-position: -514px -220px;
+    background-repeat: no-repeat;
+    width: 216px;
+    height: 211px;
+  }
+  #section5-title {
+    margin-bottom: 30px;
+    background-image: url("../image/sp_mo.png");
+    background-size: 779px 604px;
+    background-position: -0px -261px;
+    background-repeat: no-repeat;
+    width: 262px;
+    height: 221px;
+  }
+  #section-content6 {
+    padding: 120px 20px;
+  }
+  #section6-title {
+    margin-bottom: 32px;
+    background-image: url("../image/sp_mo2.png");
+    background-size: 846px 447px;
+    background-position: 0px -279px;
+    width: 323px;
+    height: 168px;
+  }
+  #section7-title {
+    margin-bottom: 50px;
+    background-image: url("../image/sp_mo2.png");
+    background-size: 846px 447px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 277px;
+  }
+
+  #donation {
+    flex-direction: column;
+    align-items: center;
+  }
+  #donation li {
+    margin: 20px 0;
+  }
+  #donation li:nth-child(1) .donation-title {
+    background-image: url("../image/sp_mo2.png");
+    background-size: 846px 447px;
+    background-position: -546px -241px;
+    background-repeat: no-repeat;
+    width: 208px;
+    height: 25px;
+  }
+  #donation li:nth-child(2) .donation-title {
+    background-image: url("../image/sp_mo2.png");
+    background-size: 846px 447px;
+    background-position: -546px -214px;
+    background-repeat: no-repeat;
+    width: 241px;
+    height: 25px;
+  }
+
+  .service-list {
+    display: flex;
+    flex-direction: column;
+  }
+  #card-wrap {
+    padding: 0 15px;
+    width: 100%;
+  }
+  .serviceSwiper .service-card {
+    max-width: 1023px;
+  }
+  .service-list > div {
+    margin: 15px 0;
+  }
+  .serviceSwiper .swiper-button-next {
+    display: none;
+  }
+  .serviceSwiper .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+  .service-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .service-card p {
+    font-size: 17px;
+    color: #666;
+  }
+  .icon1 {
+    width: 210px;
+    height: 251px;
+    margin: 0;
+  }
+  .icon2 {
+    width: 320px;
+    height: 256px;
+    margin: 0;
+  }
+  .icon3 {
+    width: 320px;
+    height: 256px;
+    margin: 0;
+  }
+  .icon4 {
+    width: 320px;
+    height: 256px;
+    margin: 0;
+  }
+  .kin-20th a,
+  .new a {
+    border: 1px solid #000;
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .update a,
+  .challenge a {
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

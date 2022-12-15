@@ -1,0 +1,309 @@
+header {
+  width: 100%;
+  min-height: 64px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1111;
+}
+.header-active {
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 5%);
+}
+#logo a {
+  display: block;
+  background-image: url("../image/ico_kin_logo.svg");
+  width: 115px;
+  height: 52px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#header-inner {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1255px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15px;
+}
+
+#header-inner ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+#header-inner ul li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 30px;
+}
+#header-inner ul li a {
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+#header-inner ul.hide {
+  display: none;
+}
+#btn-wrap {
+  display: flex;
+}
+#share {
+  border: none;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  display: block;
+  background-image: url("../image/sp_mo.png");
+  background-repeat: no-repeat;
+  background-size: 779px 604px;
+  background-position: -732px -334px;
+  background-color: inherit;
+  margin-right: 10px;
+}
+.menu-on {
+  color: #00d35d;
+  font-weight: 600;
+  border-bottom: 4px solid #00d35d;
+  position: relative;
+}
+.menu-on::after {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 4px;
+  background: #0068ff;
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+}
+#all-menu {
+  border: none;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  background-image: url("../image/sp_mo.png");
+  background-repeat: no-repeat;
+  background-size: 779px 604px;
+  background-position: -732px -296px;
+  background-color: inherit;
+  display: none;
+}
+#all-menu.menu-btn {
+  display: block;
+}
+#modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+}
+#modal-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+#modal-item {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 300px;
+  height: 400px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+}
+#modal-item h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+#modal-close {
+  border: none;
+  background-color: transparent;
+  display: block;
+  position: absolute;
+  margin: 10px 10px 0 0;
+  top: 10px;
+  right: 10px;
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: -168px -116px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden !important;
+  display: block !important;
+  color: transparent !important;
+}
+#link {
+  display: grid;
+  grid-template-columns: repeat(30px, 4fr);
+  grid-template-rows: repeat(30px, 4fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+#link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+  margin: 0 0 7px !important;
+  color: #767678 !important;
+  font-size: 13px !important;
+  white-space: nowrap !important;
+  text-align: center !important;
+}
+#link span {
+  display: block;
+  margin-top: 70px;
+  word-break: keep-all;
+  letter-spacing: -1px;
+  white-space: nowrap !important;
+}
+#blog {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: 0px -42px;
+  grid-column: 1/1;
+}
+
+#cafe {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: -84px 0px;
+  grid-column: 2/2;
+}
+#keep {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: -126px -84px;
+  grid-column: 3/3;
+}
+#memo {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: -84px -126px;
+  grid-column: 4/4;
+}
+#band {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: -126px 0px;
+}
+#line {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: 0px -126px;
+}
+#kakaotalk {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: -126px -42px;
+}
+#kakaostory {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: 0px 0px;
+}
+#twitter {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: -168px 0px;
+}
+#facebook {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: 0px -84px;
+}
+#main {
+  background-image: url("../image/sp_spi_icons.png");
+  background-size: 208px 166px;
+  background-position: -42px -126px;
+}
+#link-copy {
+  margin: 0 auto;
+  width: 240px;
+  height: 40px;
+  padding: 0px 10px;
+  margin-top: 40px;
+  display: flex;
+  line-height: 38px;
+}
+#link-copy a:nth-child(1) {
+  font-size: 13px;
+  padding: 0 7px;
+  text-align: left;
+  color: #2196f3;
+  background-color: #fff;
+  border: 1px solid #e6e6ea;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#link-copy a:nth-child(2) {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 38px;
+  width: 60px;
+  background-color: #f4f4f5;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+}
+#all-menu_list {
+  display: none;
+  width: 100%;
+  height: calc(100vh - 64px);
+  z-index: 9999;
+  background-color: #fff;
+  position: fixed;
+  top: 64px;
+  left: 0;
+}
+#all-menu_list.menu-open {
+  display: block;
+}
+#all-menu.all-menu_close {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  background-image: url("../image/sp_mo.png");
+  background-repeat: no-repeat;
+  background-size: 779px 604px;
+  background-position: -732px -220px;
+  background-color: inherit;
+  display: block;
+}
+#all-menu_list ul {
+  margin-top: 50px;
+}
+#all-menu_list ul li {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px 15px;
+}
+#all-menu_list span {
+  padding-left: 15px;
+  position: absolute;
+  bottom: 40px;
+  font-size: 15px;
+  color: #666666;
+}
