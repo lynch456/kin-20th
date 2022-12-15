@@ -15,51 +15,47 @@ $(document).ready(() => {
   $("#all-menu").on("click", function () {
     $("#all-menu_list").toggle();
     $(this).toggleClass("all-menu_close");
+    $("body").toggleClass("scroll");
   });
-  $(window).resize(function () {
-    let ww = window.innerWidth;
-    if (ww <= 1023) {
-      $("#all-menu").addClass("menu-btn");
-    } else if (ww > 1024) {
-      $("#all-menu").removeClass("menu-btn");
-    }
-    $(window).scroll(() => {
-      if (scrollY) {
-        $("header").addClass("header-active");
-      } else {
-        $("header").removeClass("header-active");
-      }
-      if (scrollY >= 1100 && ww >= 1024) {
-        $("#menu").removeClass("hide");
-      } else if (scrollY < 1100 || ww <= 1023) {
-        $("#menu").addClass("hide");
-      }
 
-      if (
-        scrollY > $("#section-content2").offset().top &&
-        scrollY < $("#section-content3").offset().top
-      ) {
-        $("#tab1").addClass("menu-on");
-        $("#tab2").removeClass("menu-on");
-      } else if (
-        scrollY > $("#section-content3").offset().top &&
-        scrollY < $("#section-content6").offset().top
-      ) {
-        $("#tab1").removeClass("menu-on");
-        $("#tab3").removeClass("menu-on");
-        $("#tab2").addClass("menu-on");
-      } else if (
-        scrollY > $("#section-content7").offset().top &&
-        scrollY < $("#section-content8").offset().top
-      ) {
-        $("#tab1").removeClass("menu-on");
-        $("#tab2").removeClass("menu-on");
-        $("#tab3").addClass("menu-on");
-      }
-      if (scrollY > $("#section-content6").offset().top) {
-        timerCounter();
-      }
-    });
+  let ww = window.innerWidth;
+
+  $(window).scroll(() => {
+    if (scrollY) {
+      $("header").addClass("header-active");
+    } else {
+      $("header").removeClass("header-active");
+    }
+    if (scrollY >= 1100 && ww >= 1024) {
+      $("#menu").removeClass("hide");
+    } else if (scrollY < 1100 || ww <= 1023) {
+      $("#menu").addClass("hide");
+    }
+
+    if (
+      scrollY > $("#section-content2").offset().top &&
+      scrollY < $("#section-content3").offset().top
+    ) {
+      $("#tab1").addClass("menu-on");
+      $("#tab2").removeClass("menu-on");
+    } else if (
+      scrollY > $("#section-content3").offset().top &&
+      scrollY < $("#section-content6").offset().top
+    ) {
+      $("#tab1").removeClass("menu-on");
+      $("#tab3").removeClass("menu-on");
+      $("#tab2").addClass("menu-on");
+    } else if (
+      scrollY > $("#section-content7").offset().top &&
+      scrollY < $("#section-content8").offset().top
+    ) {
+      $("#tab1").removeClass("menu-on");
+      $("#tab2").removeClass("menu-on");
+      $("#tab3").addClass("menu-on");
+    }
+    if (scrollY > $("#section-content6").offset().top) {
+      timerCounter();
+    }
   });
 
   let counting1 = 0;

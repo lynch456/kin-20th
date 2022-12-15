@@ -94,9 +94,7 @@ header {
   background-color: inherit;
   display: none;
 }
-#all-menu.menu-btn {
-  display: block;
-}
+
 #modal {
   display: none;
   position: fixed;
@@ -280,6 +278,9 @@ header {
 }
 #all-menu_list.menu-open {
   display: block;
+}
+body.scroll {
+  overflow: hidden;
 }
 #all-menu.all-menu_close {
   cursor: pointer;

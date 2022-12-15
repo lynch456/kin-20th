@@ -1,4 +1,16 @@
 @media (max-width: 1023px) {
+  #all-menu {
+    border: none;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background-image: url("../image/sp_mo.png");
+    background-repeat: no-repeat;
+    background-size: 779px 604px;
+    background-position: -732px -296px;
+    background-color: inherit;
+    display: block;
+  }
   #section1-title {
     background-image: url("../image/sp_mo.png");
     background-size: 779px 604px;
