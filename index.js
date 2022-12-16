@@ -19,7 +19,17 @@ $(document).ready(() => {
   });
 
   let ww = window.innerWidth;
-
+  if (ww >= 1024) {
+    $(".intro-video").attr(
+      "src",
+      "https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/spot_pc.mp4"
+    );
+  } else if (ww <= 1023) {
+    $(".intro-video").attr(
+      "src",
+      "https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/spot_mo.mp4"
+    );
+  }
   $(window).scroll(() => {
     if (scrollY) {
       $("header").addClass("header-active");
@@ -28,16 +38,8 @@ $(document).ready(() => {
     }
     if (scrollY >= 1100 && ww >= 1024) {
       $("#menu").removeClass("hide");
-      $(".intro-video").attr(
-        "src",
-        "https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/spot_pc.mp4"
-      );
     } else if (scrollY < 1100 || ww <= 1023) {
       $("#menu").addClass("hide");
-      $(".intro-video").attr(
-        "src",
-        "https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/spot_mo.mp4"
-      );
     }
 
     if (
