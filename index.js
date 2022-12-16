@@ -30,13 +30,13 @@ $(document).ready(() => {
       $("#menu").removeClass("hide");
       $(".intro-video").attr(
         "src",
-        "https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/spot_mo.mp4"
+        "https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/spot_pc.mp4"
       );
     } else if (scrollY < 1100 || ww <= 1023) {
       $("#menu").addClass("hide");
       $(".intro-video").attr(
         "src",
-        "https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/spot_pc.mp4"
+        "https://campaign-cdn.pstatic.net/0/campaign/2022/09/kin-20th-anniversary/video/spot_mo.mp4"
       );
     }
 
